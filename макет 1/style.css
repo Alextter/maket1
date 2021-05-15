@@ -1,0 +1,246 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: 0;
+}
+.sidebar1{
+    width: 100%;
+    height: 700px;
+    background: url(./img/Color\ Fill\ 1@1X.png) no-repeat;
+    background-size: 100% 700px;
+    
+}
+.head{
+    display: flex;
+}
+.logo{
+    margin-left: 158px;
+    margin-top: 52px;
+}
+.nav{
+    margin-left: 500px;
+    margin-top: 60px;
+}
+.menu{
+    margin-left: 49px;
+    text-decoration: none;
+    font-family: 'Raleway', sans-serif; /*Ralewey-semi-bold*/
+    font-size: 15px;
+    color: white;
+}
+.btn_sign_up{
+    width: 81px;
+    height: 26px;
+    border: 1px solid white;
+    margin-top: 59px;
+    margin-left: 417px;
+}
+.text_sign_up{
+    text-decoration: none;
+    color: white;
+    font-family: 'Raleway', sans-serif; /*Ralewey-regular*/
+    font-size: 12px;
+    margin-left: 18px;
+    
+}
+.sidebar1_inf{
+    width: 580px;
+    height: 223px;
+    margin-left: 158px;
+    margin-top: 167px;
+}
+.heading_of_sidebar1{
+    font-size: 55px;
+    color: white;
+    font-family: 'Raleway', sans-serif; /*Ralewey-extra-bold*/
+    text-transform: uppercase;
+}
+.description_of_sidebar1{
+    color: white;
+    font-family: 'Raleway', sans-serif; /*Ralewey-regular*/
+    
+}
+.btns_of_1sidebar{
+    display: flex;
+}
+.btn_buy_now{
+    width: 151px;
+    height: 56px;
+    border: 1px solid #061E37;
+    background-color: #061E37;
+    border-radius: 5px;
+    margin-left: 158px;
+    margin-top: 60px;
+}
+.text_buy_now{
+    color: white;
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif; /*Roboto-regular*/
+    font-size: 15px;
+    margin-left: 40px;
+    position:relative;
+    top: 18px;
+}
+.btn_try_for_free{
+    width: 151px;
+    height: 56px;
+    border: 1px solid white;
+    background-color: white;
+    border-radius: 5px;
+    margin-left: 26px;
+    margin-top: 60px;
+}
+.text_try_for_free{
+    color: #061E37;
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif; /*Roboto-regular*/
+    font-size: 15px;
+    margin-left: 26px;
+    position:relative;
+    top: 18px;
+}
+.video{
+    width: 600px;
+    height: 320px;
+    background: url(./img/Rounded\ Rectangle\ 2\ copy@1X.png);
+    border: 1px #061E37 solid;
+    border-radius: 5px;
+    margin-left: 500px;
+    margin-top: -205px;
+}
+.color{
+    width: 600px;
+    height: 320px;
+    background-color: rgb(248, 227, 183);
+    opacity: 0.5;
+    border-radius: 5px;
+}
+.btn_play_video{
+    width: 71px;
+    height: 71px;
+    background-color:#061E37 ;
+    margin-top: -200px;
+    margin-left: 270px;
+    border-radius: 5px;
+}
+.a{
+    display: flex;
+}
+#play{
+    width: 30px;
+    height: 30px;
+    color: white;
+}
+.text_watch_video{
+    font-family: 'Raleway', sans-serif;
+    margin-left: 260px;
+}
+
+
+
+
+.sidebar2{
+    
+}
+.heading_sidebar2{
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+    font-size: 45px;
+    margin-top: 98px;
+}
+.heading_subtitle_sidebar2{
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+    color: #B0BEC5;
+    font-size: 25px;
+}
+.heading_text_sidebar2{
+    text-align: center;
+    color:#B0BEC5; 
+    font-family: 'Raleway', sans-serif;
+}
+.scroll{
+    display: flex;
+    margin-left: 50px;
+    margin-top: 97px;
+}
+.skroll1{
+    width: 600px;
+    height: 300px;
+}
+#calendar{
+    font-size: 100px;
+    color: #B388FF;
+    margin-left: 260px;
+}
+.scroll1_title{
+    font-family: 'Raleway', sans-serif;
+    font-size: 20px;
+    margin-left: 10px;
+    text-align: center;
+}
+.scroll1_text{
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+    color:#B0BEC5;
+}
+.btn_sidebar2_getstarted{
+    width: 151px;
+    height: 56px;
+    background-color: #1DE9B6;
+    color: white;
+    border-radius: 5px;
+    font-family: 'Raleway', sans-serif;
+    font-size: 15px;
+    text-align: center;
+    margin-left: 880px;
+}
+.btntext_getstarted{
+    position: relative;
+    top: 19px;
+}
+
+
+
+.sidebar3{
+    width: 100%;
+    height: 151px;
+    display: flex;
+}
+.box1{
+    width: 500px;
+    height: 151px;
+    background-color: #80D8FF;
+    display: flex;
+}
+.box2{
+    width: 500px;
+    height: 151px;
+    background-color: #82B1FF;
+}
+.box3{
+    width: 500px;
+    height: 151px;
+    background-color: #B388FF;
+}
+.box4{
+    width: 500px;
+    height: 151px;
+    background-color: #EA80FC;
+}
+#city{
+    font-size: 30px;
+    margin-left: 13px;
+    margin-top: 13px;
+    color: #80D8FF;
+}
+.background{
+    width: 61px;
+    height: 61px;
+    background-color: white;
+    border-radius: 100%;
+}
+.box1_text{
+    color: white;
+}
